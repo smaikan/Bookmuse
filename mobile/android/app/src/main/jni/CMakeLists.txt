@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.13)
+project(appmodules)
+include(${REACT_ANDROID_DIR}/cmake-utils/ReactNative-application.cmake)
+target_sources(appmodules PRIVATE ${REACT_ANDROID_DIR}/cmake-utils/default-app-setup/OnLoad.cpp)
+target_link_libraries(appmodules dl)
