@@ -1,0 +1,34 @@
+buildscript {
+    ext {
+        buildToolsVersion = "37.0.0"
+        minSdkVersion = 24
+        compileSdkVersion = 37
+        targetSdkVersion = 36
+        ndkVersion = "27.1.12297006"
+        kotlinVersion = "2.4.10"
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle")
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
+    }
+}
+
+// Keep the root API numeric for RN libraries that compare it to integers.
+// AGP 9.2 resolves Android 37's explicit minor-zero platform through the final DSL.
+subprojects { child ->
+    ['com.android.application', 'com.android.library'].each { androidPlugin ->
+        child.plugins.withId(androidPlugin) {
+            child.extensions.getByName('androidComponents').finalizeDsl { androidDsl ->
+                androidDsl.compileSdk = 37
+                androidDsl.compileSdkMinor = 0
+            }
+        }
+    }
+}
+
+apply plugin: "com.facebook.react.rootproject"
