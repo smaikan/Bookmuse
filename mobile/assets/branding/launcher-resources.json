@@ -1,0 +1,74 @@
+{
+  "source": "mobile/assets/branding/bookmuse-icon.png",
+  "sourceDimensions": [
+    1254,
+    1254
+  ],
+  "sourceSha256": "f7ff2d4814382cb4aab08d59114b4dd77ee8fa1038c93137de28e88115204bea",
+  "legacyPngCount": 10,
+  "adaptiveForegroundPixels": 432,
+  "detectedGreenLogoMaxRadiusDp": 30.89,
+  "adaptiveSafeCircleRadiusDp": 33,
+  "resourceCompiler": "Android build-tools37.0.0 AAPT2, android-37.0/android.jar",
+  "resourceCompileAndLinkPassed": true,
+  "fullApplicationApkRebuilt": false,
+  "deviceIconValidated": false,
+  "generatedBytes": 229495,
+  "generatedImages": [
+    {
+      "path": "mobile/android/app/src/main/res/drawable-nodpi/bookmuse_launcher_foreground.png",
+      "bytes": 100102,
+      "sha256": "d9836cad5d34062c03a542bbdf9df38ff9bddc7e259f06512752e28d5f5d55bf"
+    },
+    {
+      "path": "mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "bytes": 4842,
+      "sha256": "d36f69fe47e345e2c039e8ed51698b0ce611d05f53f3ec59a901f6964278a8ee"
+    },
+    {
+      "path": "mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
+      "bytes": 5618,
+      "sha256": "cdb8867e4c8dc41b40a25346013d3ec7539fcf4496ab5734a2cb00fd82852452"
+    },
+    {
+      "path": "mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "bytes": 2559,
+      "sha256": "2197cb57bd4e93601fde1ab6670dc77deb07b10b1b98d1334fb4c04b3a1ed575"
+    },
+    {
+      "path": "mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
+      "bytes": 3144,
+      "sha256": "a219eb629423bf32880a46824097803c777b5fff439c683b3690b85caf9123d5"
+    },
+    {
+      "path": "mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "bytes": 8373,
+      "sha256": "ef3e21d00bfce9208755ae98965d4e37e17dde80370d3ef727005b6ebfb6d8fa"
+    },
+    {
+      "path": "mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
+      "bytes": 8968,
+      "sha256": "a868c82bfef3842c2f149557c4443260721c1b246e99ffa7a4c711530e9183b0"
+    },
+    {
+      "path": "mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "bytes": 17734,
+      "sha256": "fb380e883203f14d3b7ec096f04053f14d55601a0a249bc5ae09253ad0415098"
+    },
+    {
+      "path": "mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
+      "bytes": 18004,
+      "sha256": "43fba391939ae23a9f84fa1b3c4aa51239852d42c3e4e6ed0ffead32ccc381a1"
+    },
+    {
+      "path": "mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "bytes": 30416,
+      "sha256": "d72336df7a0b889425dacf6abc531eb66f459ee83af7a2a8b23251b468cd4629"
+    },
+    {
+      "path": "mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+      "bytes": 29735,
+      "sha256": "5c13cccd55c0befc76ee09753c73e6a973e12edfdf248c1f0cd8a8d13162cbf0"
+    }
+  ]
+}
