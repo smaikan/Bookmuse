@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "source": "user_reported",
+  "manufacturer": "Huawei",
+  "model": "MatePad SE AGS5-W09",
+  "operatingSystem": "HarmonyOS 3.0",
+  "referenceRamMiB": 2048,
+  "androidApi": null,
+  "abi": null,
+  "measuredRamMiB": null,
+  "physicalDeviceValidated": false
+}

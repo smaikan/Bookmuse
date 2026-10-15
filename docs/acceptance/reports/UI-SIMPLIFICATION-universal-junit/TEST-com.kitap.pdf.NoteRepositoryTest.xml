@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kitap.pdf.NoteRepositoryTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-10-15T13:28:09.594Z" hostname="DESKTOP-U6G0PLP" time="3.117">
+  <properties/>
+  <testcase name="thousandNotesLongBodiesAndLiteralSearchReturnOnlyPaginatedPreviews" classname="com.kitap.pdf.NoteRepositoryTest" time="2.371"/>
+  <testcase name="explicitCloseFlushesAndEmptyUnchangedEditorDoesNotClutterRecovery" classname="com.kitap.pdf.NoteRepositoryTest" time="0.046"/>
+  <testcase name="groupUndoDoesNotResurrectPreviouslyDeletedNotes" classname="com.kitap.pdf.NoteRepositoryTest" time="0.057"/>
+  <testcase name="reopeningFromEitherTabUsesSamePassageNoteAndRotatesEditorLease" classname="com.kitap.pdf.NoteRepositoryTest" time="0.049"/>
+  <testcase name="finalSaveIsAtomicRetryableAndClosesTheDraftLease" classname="com.kitap.pdf.NoteRepositoryTest" time="0.051"/>
+  <testcase name="revisionTwoBeforeOneAndReopenKeepsLatestCommittedDraft" classname="com.kitap.pdf.NoteRepositoryTest" time="0.056"/>
+  <testcase name="passageCreationRollsBackAnnotationIfDraftInsertFails" classname="com.kitap.pdf.NoteRepositoryTest" time="0.043"/>
+  <testcase name="preservingAnnotationNotesAndDeletingBothHaveDifferentDurableUndo" classname="com.kitap.pdf.NoteRepositoryTest" time="0.062"/>
+  <testcase name="removingBookCascadesOwnedNotesButCannotTouchOtherBooks" classname="com.kitap.pdf.NoteRepositoryTest" time="0.047"/>
+  <testcase name="noteDeleteUndoPreservesDirtyDraftAndUnsavedDraftCanAlsoBeRestored" classname="com.kitap.pdf.NoteRepositoryTest" time="0.05"/>
+  <testcase name="versionFourMigrationKeepsMarksPositionsPreferencesAndBookmarks" classname="com.kitap.pdf.NoteRepositoryTest" time="0.079"/>
+  <testcase name="openingUnchangedSavedNoteDoesNotChangeItsOrderingTimestamp" classname="com.kitap.pdf.NoteRepositoryTest" time="0.046"/>
+  <testcase name="versionFiveMigrationFailureRollsBackWithoutResettingOldRecords" classname="com.kitap.pdf.NoteRepositoryTest" time="0.088"/>
+  <testcase name="bookPagePassageBindingsKeepQuoteSeparateFromBody" classname="com.kitap.pdf.NoteRepositoryTest" time="0.059"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kitap.pdf.BookRepositoryTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-10-15T01:18:24.804Z" hostname="DESKTOP-U6G0PLP" time="1.692">
+  <properties/>
+  <testcase name="titleSearchIsTurkishAwareAndPercentIsLiteral" classname="com.kitap.pdf.BookRepositoryTest" time="0.13"/>
+  <testcase name="favoriteFilterCombinesSearchAndOrderAndSurvivesReopen" classname="com.kitap.pdf.BookRepositoryTest" time="0.132"/>
+  <testcase name="bookmarksAreScopedIdempotentAndSurviveReopen" classname="com.kitap.pdf.BookRepositoryTest" time="0.106"/>
+  <testcase name="reopeningKeepsIndependentBookPositions" classname="com.kitap.pdf.BookRepositoryTest" time="0.109"/>
+  <testcase name="removalCleansOwnedCopyAndPositionButPreservesExternalOriginal" classname="com.kitap.pdf.BookRepositoryTest" time="0.125"/>
+  <testcase name="renamedTitleKeepsPositionAndOnlyReadBooksAppearInContinue" classname="com.kitap.pdf.BookRepositoryTest" time="0.166"/>
+  <testcase name="libraryModeAndThumbnailLruMetadataPersistIndependently" classname="com.kitap.pdf.BookRepositoryTest" time="0.427"/>
+  <testcase name="relinkKeepsBookIdentityAndPositionAndInvalidPageCannotOverwriteIt" classname="com.kitap.pdf.BookRepositoryTest" time="0.076"/>
+  <testcase name="startupRecoversInterruptedImportsWithoutDeletingReadyBooks" classname="com.kitap.pdf.BookRepositoryTest" time="0.059"/>
+  <testcase name="versionOneMigrationKeepsTheOldPositionAndAddsDurablePreferences" classname="com.kitap.pdf.BookRepositoryTest" time="0.107"/>
+  <testcase name="libraryPreferencesAreAtomicAndDoNotChangeReadingPosition" classname="com.kitap.pdf.BookRepositoryTest" time="0.063"/>
+  <testcase name="duplicateUriCannotLeaveAPartialRow" classname="com.kitap.pdf.BookRepositoryTest" time="0.055"/>
+  <testcase name="aPositionWriteFailureRollsBackTheDocumentRowToo" classname="com.kitap.pdf.BookRepositoryTest" time="0.102"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

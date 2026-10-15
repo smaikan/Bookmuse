@@ -1,0 +1,187 @@
+{
+  "scope": "Release Android36 x86_64 emulator; not Huawei acceptance",
+  "physicalDeviceValidated": false,
+  "basic": {
+    "columns": 3,
+    "gutterAndPageNumbersVisible": true
+  },
+  "longPdf": {
+    "pages": 1000,
+    "resumedPhysicalPage": 500,
+    "thumbnailCacheEntryIncrease": 12,
+    "overviewScrollDoesNotSave": true
+  },
+  "scan": {
+    "doesNotPretendTextSelection": true,
+    "regionCommitted": true
+  },
+  "layoutCorpus": {
+    "wideMultiColumnRotatedPagesOpened": 3,
+    "brokenImportDidNotCreateBook": true
+  },
+  "downloadsCorpus": [
+    {
+      "alias": "DL01",
+      "pageCount": 1,
+      "displayedAndSaved": 1
+    },
+    {
+      "alias": "DL02",
+      "pageCount": 1,
+      "displayedAndSaved": 1
+    },
+    {
+      "alias": "DL03",
+      "pageCount": 1,
+      "displayedAndSaved": 1
+    },
+    {
+      "alias": "DL04",
+      "pageCount": 1,
+      "displayedAndSaved": 1
+    },
+    {
+      "alias": "DL05",
+      "pageCount": 1,
+      "displayedAndSaved": 1
+    },
+    {
+      "alias": "DL06",
+      "pageCount": 1,
+      "displayedAndSaved": 1
+    },
+    {
+      "alias": "DL07",
+      "pageCount": 1,
+      "displayedAndSaved": 1
+    },
+    {
+      "alias": "DL08",
+      "pageCount": 2,
+      "displayedAndSaved": 2
+    },
+    {
+      "alias": "DL09",
+      "pageCount": 1,
+      "displayedAndSaved": 1
+    },
+    {
+      "alias": "DL10",
+      "pageCount": 2,
+      "displayedAndSaved": 2
+    }
+  ],
+  "responsive": [
+    {
+      "widthDp": 360,
+      "columnsObserved": 2,
+      "columnPolicy": 2
+    },
+    {
+      "widthDp": 600,
+      "columnsObserved": 3,
+      "columnPolicy": 3
+    },
+    {
+      "widthDp": 900,
+      "columnsObserved": 4,
+      "columnPolicy": 4
+    },
+    {
+      "widthDp": 1280,
+      "columnsObserved": 5,
+      "columnPolicy": 5
+    },
+    {
+      "phone360x480FontPercent": 200,
+      "closeAndGridReachable": true
+    }
+  ],
+  "memorySnapshot": {
+    "pssKiB": 70951,
+    "emulatorOnly": true,
+    "notPhysicalAcceptance": true
+  },
+  "spread": {
+    "twoVisiblePanes": true,
+    "crossPanePinchAndBackResetBoth": true,
+    "pixelDifferenceAfterResetRatio": 0.0,
+    "pagePreserved": true
+  },
+  "overlayGeometry": {
+    "pdfPixelsOutsideOverlayUnchanged": true,
+    "viewportPixels": [
+      1200,
+      800
+    ]
+  },
+  "draftRecovery": {
+    "lastCommittedDraftSurvivedForceStop": true,
+    "reopenedFromBookNotes": true,
+    "explicitSaveSucceeded": true
+  },
+  "backupRestore": {
+    "createdV2": true,
+    "localConflictKeepsLocal": true,
+    "backupConflictRestoresFavorite": true,
+    "recordCountsUnchanged": true
+  },
+  "yellowAndPassage": {
+    "newYellowHighlightCommitted": true,
+    "passageAnnotationAndNoteCommitted": true,
+    "reopenedOnSamePage": true,
+    "newAnnotations": 2,
+    "newNotes": 1,
+    "visibleYellowBandsAfterReopen": 2,
+    "yellowPixelsAfterReopen": 1510
+  },
+  "overPinch": {
+    "reachingFitDoesNotOpen": true,
+    "additionalPinchOpensThreeColumns": true,
+    "closingPreservesPage": true
+  },
+  "readingMemorySnapshots": {
+    "pssKiB": {
+      "fit": 71608,
+      "zoom": 76490,
+      "overview": 82270
+    },
+    "scope": "Three emulator point samples, not typical/peak/long-session or physical acceptance"
+  },
+  "wipe": {
+    "savedHighlightTracksFingerPixels": 250.0,
+    "cancelRestoresPixelsAndSavedPage": true
+  },
+  "finalAudit": {
+    "installedSha256MatchesFinalArtifact": true,
+    "sha256": "13337ff2a725a079379bfa9174e111ac74abde1cb47eab4c83a5f551c1f7160f",
+    "oldUserNotesAndAnchorsPreserved": true,
+    "textStylesYellow": true,
+    "applicationCrashInCurrentBootBuffer": false,
+    "applicationAnrInCurrentBootEvents": false,
+    "counts": {
+      "documents": 15,
+      "annotations": 7,
+      "notes": 6,
+      "note_drafts": 0,
+      "bookmarks": 1,
+      "thumbnail_cache": 63
+    },
+    "sdk": "36",
+    "abi": "x86_64",
+    "memTotalKiB": 4014280
+  },
+  "libraryNavigation1280": {
+    "settingsAndLibraryReachableAfterResize": true
+  },
+  "harnessNotes": [
+    "Initial SAF query/control-label attempts were not product passes; relevant cases were rerun successfully with grounded controls. Private diagnostics retained.",
+    "Transient system taskbar during display resize was allowed to settle; settings/library navigation at1280 dp then passed."
+  ],
+  "completion": {
+    "sourceAndReleaseBuilds": "COMPLETE",
+    "reportedEmulatorScenarios": "COMPLETE",
+    "fullPhysicalAcceptance": "OPEN",
+    "canonicalPerformance": "INCOMPLETE"
+  }
+}

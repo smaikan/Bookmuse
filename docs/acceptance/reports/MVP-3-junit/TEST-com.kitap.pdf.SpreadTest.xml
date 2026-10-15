@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kitap.pdf.SpreadTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-14T07:26:12.185Z" hostname="DESKTOP-U6G0PLP" time="0.006">
+  <properties/>
+  <testcase name="spreadNavigationDoesNotSkipOrWrapAtBookEnds" classname="com.kitap.pdf.SpreadTest" time="0.005"/>
+  <testcase name="coverOddCountAndSecondPageKeepPhysicalIdentity" classname="com.kitap.pdf.SpreadTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

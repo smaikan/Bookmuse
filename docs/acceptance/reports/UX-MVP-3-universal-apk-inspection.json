@@ -1,0 +1,410 @@
+{
+  "schemaVersion": 1,
+  "apk": "C:\\Users\\Serhat\\Desktop\\kitap\\artifacts\\ux-mvp-3\\kitap-uxmvp3-universal.apk",
+  "sizeMiB": 42.14155578613281,
+  "sha256": "ab009accfdb20b03226da422798a4d7b47b951a0902efb1f710a64927321fa0b",
+  "abis": [
+    "arm64-v8a",
+    "x86_64"
+  ],
+  "hasBundledJavaScript": true,
+  "hasHermesLibrary": true,
+  "hasPdfiumLibrary": true,
+  "allElf16kAligned": true,
+  "allStoredLibrariesZip16kAligned": true,
+  "libraries": [
+    {
+      "path": "lib/arm64-v8a/libappmodules.so",
+      "abi": "arm64-v8a",
+      "uncompressedBytes": 931976,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/arm64-v8a/libc++_shared.so",
+      "abi": "arm64-v8a",
+      "uncompressedBytes": 1292904,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/arm64-v8a/libfbjni.so",
+      "abi": "arm64-v8a",
+      "uncompressedBytes": 177000,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/arm64-v8a/libhermestooling.so",
+      "abi": "arm64-v8a",
+      "uncompressedBytes": 141432,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/arm64-v8a/libhermesvm.so",
+      "abi": "arm64-v8a",
+      "uncompressedBytes": 2477320,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/arm64-v8a/libimagepipeline.so",
+      "abi": "arm64-v8a",
+      "uncompressedBytes": 8760,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/arm64-v8a/libjsi.so",
+      "abi": "arm64-v8a",
+      "uncompressedBytes": 412696,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/arm64-v8a/libnative-filters.so",
+      "abi": "arm64-v8a",
+      "uncompressedBytes": 277744,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/arm64-v8a/libnative-imagetranscoder.so",
+      "abi": "arm64-v8a",
+      "uncompressedBytes": 585376,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/arm64-v8a/libpdfium.so",
+      "abi": "arm64-v8a",
+      "uncompressedBytes": 4738808,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/arm64-v8a/libpdfiumandroid.so",
+      "abi": "arm64-v8a",
+      "uncompressedBytes": 441096,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/arm64-v8a/libreact_codegen_rnscreens.so",
+      "abi": "arm64-v8a",
+      "uncompressedBytes": 1225624,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/arm64-v8a/libreact_codegen_safeareacontext.so",
+      "abi": "arm64-v8a",
+      "uncompressedBytes": 153072,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/arm64-v8a/libreactnative.so",
+      "abi": "arm64-v8a",
+      "uncompressedBytes": 6898824,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/arm64-v8a/librnscreens.so",
+      "abi": "arm64-v8a",
+      "uncompressedBytes": 104088,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/x86_64/libappmodules.so",
+      "abi": "x86_64",
+      "uncompressedBytes": 944000,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/x86_64/libc++_shared.so",
+      "abi": "x86_64",
+      "uncompressedBytes": 1252080,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/x86_64/libfbjni.so",
+      "abi": "x86_64",
+      "uncompressedBytes": 172952,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/x86_64/libhermestooling.so",
+      "abi": "x86_64",
+      "uncompressedBytes": 138128,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/x86_64/libhermesvm.so",
+      "abi": "x86_64",
+      "uncompressedBytes": 2591976,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/x86_64/libimagepipeline.so",
+      "abi": "x86_64",
+      "uncompressedBytes": 8464,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/x86_64/libjsi.so",
+      "abi": "x86_64",
+      "uncompressedBytes": 418872,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/x86_64/libnative-filters.so",
+      "abi": "x86_64",
+      "uncompressedBytes": 270784,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/x86_64/libnative-imagetranscoder.so",
+      "abi": "x86_64",
+      "uncompressedBytes": 720432,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/x86_64/libpdfium.so",
+      "abi": "x86_64",
+      "uncompressedBytes": 4372592,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/x86_64/libpdfiumandroid.so",
+      "abi": "x86_64",
+      "uncompressedBytes": 429416,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/x86_64/libreact_codegen_rnscreens.so",
+      "abi": "x86_64",
+      "uncompressedBytes": 1244512,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/x86_64/libreact_codegen_safeareacontext.so",
+      "abi": "x86_64",
+      "uncompressedBytes": 153064,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/x86_64/libreactnative.so",
+      "abi": "x86_64",
+      "uncompressedBytes": 7102216,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    },
+    {
+      "path": "lib/x86_64/librnscreens.so",
+      "abi": "x86_64",
+      "uncompressedBytes": 100928,
+      "loadSegmentAlignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf16kAligned": true,
+      "storedUncompressed": true,
+      "zip16kAligned": true
+    }
+  ],
+  "physicalDeviceValidated": false
+}

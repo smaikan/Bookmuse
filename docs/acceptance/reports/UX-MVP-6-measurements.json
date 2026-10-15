@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "build": {
+    "type": "release",
+    "version": "0.8.0/code15",
+    "artifact_sha256": "13337ff2a725a079379bfa9174e111ac74abde1cb47eab4c83a5f551c1f7160f"
+  },
+  "device": {
+    "manufacturer": "unknown",
+    "model": "Android SDK built for x86_64",
+    "android_version": "16/API36",
+    "abi": "x86_64",
+    "physical": false,
+    "ram_mib": 3920.1953125,
+    "refresh_hz": 60.000004
+  },
+  "evidence": {
+    "kind": "measured",
+    "run_id": "ux6-artifact-sizes-only",
+    "corpus_id": "artifact-file-sizes-no-runtime-benchmark",
+    "captured_at": "2026-10-15T06:10:28.304719+00:00",
+    "artifacts": [
+      "UX-MVP-6-verification.json",
+      "UX-MVP-6-universal-verification.json"
+    ],
+    "limitations": "Only actual final APK sizes. Runtime p95/FPS/PSS/stability benchmark not measured on physical Huawei. Emulator PSS point snapshots are not reference-device metrics."
+  },
+  "metrics": {
+    "device_apk_mib": {
+      "unit": "MiB",
+      "samples": [
+        23.06940269470215
+      ]
+    },
+    "universal_apk_mib": {
+      "unit": "MiB",
+      "samples": [
+        42.20809555053711
+      ]
+    }
+  }
+}

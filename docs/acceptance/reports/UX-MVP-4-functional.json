@@ -1,0 +1,8 @@
+{
+  "shortSwipeCancelled": true,
+  "forwardSwipe": true,
+  "backwardSwipe": true,
+  "zoomPanDoesNotTurnPage": true,
+  "remainingFingerDoesNotNavigate": true,
+  "scope": "Signed release on Android36 emulator; physical Huawei and frame/p95 performance remain open"
+}

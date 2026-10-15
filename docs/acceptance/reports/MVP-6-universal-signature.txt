@@ -1,0 +1,18 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v3.2 scheme (APK Signature Scheme v3.2): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+V2 Signer: certificate DN: CN=Kitap Release, OU=Reader, O=Local, C=TR
+V2 Signer: certificate SHA-256 digest: 1a1f883707fe5009a8c25582a2ca0fa9ee55c844d802936f4b311a8a2502dc5c
+V2 Signer: certificate SHA-1 digest: 7537f99dc39cc4a330d594ba22dfceff3e81b749
+V2 Signer: certificate MD5 digest: b3ac9bad2dca822a0650b6ceecff891c
+V2 Signer: key algorithm: RSA
+V2 Signer: key size (bits): 3072
+V2 Signer: public key SHA-256 digest: 0f26e49288ad2fee4721ec2bc47fc1b7969ddf4d92cb7390eaa6896ba6e603a6
+V2 Signer: public key SHA-1 digest: 88227ed84ea0c9e780adee1bb95d97343c80b023
+V2 Signer: public key MD5 digest: 9cfe979e7d14e2beca779c27138bb434

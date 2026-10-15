@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kitap.pdf.BookRepositoryTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-10-15T13:28:08.486Z" hostname="DESKTOP-U6G0PLP" time="1.078">
+  <properties/>
+  <testcase name="legacyHelperPreferenceIsIgnoredWithoutReindexingThemesOrLosingPosition" classname="com.kitap.pdf.BookRepositoryTest" time="0.066"/>
+  <testcase name="titleSearchIsTurkishAwareAndPercentIsLiteral" classname="com.kitap.pdf.BookRepositoryTest" time="0.067"/>
+  <testcase name="favoriteFilterCombinesSearchAndOrderAndSurvivesReopen" classname="com.kitap.pdf.BookRepositoryTest" time="0.059"/>
+  <testcase name="bookmarksAreScopedIdempotentAndSurviveReopen" classname="com.kitap.pdf.BookRepositoryTest" time="0.069"/>
+  <testcase name="reopeningKeepsIndependentBookPositions" classname="com.kitap.pdf.BookRepositoryTest" time="0.066"/>
+  <testcase name="sharedReaderDefaultsIgnoreHistoricBookCropAndNormalizeGeometry" classname="com.kitap.pdf.BookRepositoryTest" time="0.061"/>
+  <testcase name="removalCleansOwnedCopyAndPositionButPreservesExternalOriginal" classname="com.kitap.pdf.BookRepositoryTest" time="0.167"/>
+  <testcase name="renamedTitleKeepsPositionAndOnlyReadBooksAppearInContinue" classname="com.kitap.pdf.BookRepositoryTest" time="0.082"/>
+  <testcase name="libraryModeAndThumbnailLruMetadataPersistIndependently" classname="com.kitap.pdf.BookRepositoryTest" time="0.061"/>
+  <testcase name="relinkKeepsBookIdentityAndPositionAndInvalidPageCannotOverwriteIt" classname="com.kitap.pdf.BookRepositoryTest" time="0.052"/>
+  <testcase name="startupRecoversInterruptedImportsWithoutDeletingReadyBooks" classname="com.kitap.pdf.BookRepositoryTest" time="0.073"/>
+  <testcase name="versionOneMigrationKeepsTheOldPositionAndAddsDurablePreferences" classname="com.kitap.pdf.BookRepositoryTest" time="0.097"/>
+  <testcase name="libraryPreferencesAreAtomicAndDoNotChangeReadingPosition" classname="com.kitap.pdf.BookRepositoryTest" time="0.052"/>
+  <testcase name="duplicateUriCannotLeaveAPartialRow" classname="com.kitap.pdf.BookRepositoryTest" time="0.047"/>
+  <testcase name="aPositionWriteFailureRollsBackTheDocumentRowToo" classname="com.kitap.pdf.BookRepositoryTest" time="0.045"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

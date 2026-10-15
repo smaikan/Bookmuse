@@ -1,0 +1,11 @@
+{
+  "signatureVerified": true,
+  "sha256": "13337ff2a725a079379bfa9174e111ac74abde1cb47eab4c83a5f551c1f7160f",
+  "apk": "C:\\Users\\Serhat\\Desktop\\kitap\\artifacts\\ux-mvp-6\\kitap-uxmvp6-universal.apk",
+  "physicalDeviceValidated": false,
+  "milestone": "ux-mvp-6",
+  "nativeLibraries": 30,
+  "sizeMiB": 42.20809555053711,
+  "junitTests": 95.0,
+  "elfAndZip16k": true
+}

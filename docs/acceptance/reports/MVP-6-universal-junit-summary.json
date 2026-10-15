@@ -1,0 +1,86 @@
+[
+  {
+    "name": "com.kitap.pdf.AnnotationRepositoryTest",
+    "tests": 9,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "name": "com.kitap.pdf.AtomicPdfCopyTest",
+    "tests": 6,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "name": "com.kitap.pdf.BackupRepositoryTest",
+    "tests": 14,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "name": "com.kitap.pdf.BookRepositoryTest",
+    "tests": 11,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "name": "com.kitap.pdf.ByteBudgetTest",
+    "tests": 2,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "name": "com.kitap.pdf.EngineQueueTest",
+    "tests": 2,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "name": "com.kitap.pdf.GesturePolicyTest",
+    "tests": 3,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "name": "com.kitap.pdf.NoteRepositoryTest",
+    "tests": 14,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "name": "com.kitap.pdf.PageIndexTest",
+    "tests": 2,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "name": "com.kitap.pdf.PageViewportTest",
+    "tests": 3,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "name": "com.kitap.pdf.RenderSizeTest",
+    "tests": 3,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "name": "com.kitap.pdf.SpreadTest",
+    "tests": 2,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "name": "com.kitap.pdf.TextGeometryTest",
+    "tests": 8,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "name": "com.kitap.pdf.TileLayoutTest",
+    "tests": 2,
+    "failures": 0,
+    "errors": 0
+  }
+]

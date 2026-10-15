@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kitap.pdf.GestureCoordinationTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-15T04:46:04.551Z" hostname="DESKTOP-U6G0PLP" time="0.002">
+  <properties/>
+  <testcase name="hysteresisRejectsShortPinchAndOpeningFingersCancelsArmedState" classname="com.kitap.pdf.GestureCoordinationTest" time="0.001"/>
+  <testcase name="invalidFactorsDoNotCorruptBoundsAndFiveIsTheDisplayLimit" classname="com.kitap.pdf.GestureCoordinationTest" time="0.0"/>
+  <testcase name="committedWipeContinuesFromTheSamePixelInBothDirections" classname="com.kitap.pdf.GestureCoordinationTest" time="0.001"/>
+  <testcase name="onlyReachingFitDoesNotOpenOverviewAndContinuedPinchArms" classname="com.kitap.pdf.GestureCoordinationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

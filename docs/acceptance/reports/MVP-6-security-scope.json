@@ -1,0 +1,13 @@
+{
+  "versionCode": 9,
+  "artifactSha256": "71b4704820c7bc7a380305c2f5296f65055bc41828c6eea2a78b29a09255920f",
+  "releaseBundleSources": 773,
+  "affectedPackagesInReleaseBundle": [],
+  "packagedPdfOrSigningFiles": [],
+  "auditClean": false,
+  "independentAdvisories": [
+    "GHSA-vfj7-8cjw-p6xm",
+    "GHSA-hp3w-g68c-fv3c"
+  ],
+  "scope": "Node build/test dependency graph; not a complete security certification"
+}

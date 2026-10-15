@@ -1,0 +1,48 @@
+{
+  "apkSha256": "9a2cac5c822579d8b6b35ee085b322c7d62d698f7d37847d9c006bacc222e2ec",
+  "jniExport": "Java_com_kitap_pdf_PdfGeometry_glyphs",
+  "dexDefinitions": [
+    {
+      "class": "Lcom/kitap/pdf/PdfGeometry;",
+      "method": "glyphs",
+      "signature": "(Lio/legere/pdfiumandroid/PdfPage;Lio/legere/pdfiumandroid/PdfTextPage;I)[F",
+      "public": true,
+      "native": true,
+      "hasCode": false
+    },
+    {
+      "class": "Lio/legere/pdfiumandroid/PdfPage;",
+      "method": "getPage$pdfiumandroid",
+      "signature": "()Lio/legere/pdfiumandroid/core/unlocked/PdfPageU;",
+      "public": true,
+      "native": false,
+      "hasCode": true
+    },
+    {
+      "class": "Lio/legere/pdfiumandroid/PdfTextPage;",
+      "method": "getPage$pdfiumandroid",
+      "signature": "()Lio/legere/pdfiumandroid/core/unlocked/PdfTextPageU;",
+      "public": true,
+      "native": false,
+      "hasCode": true
+    },
+    {
+      "class": "Lio/legere/pdfiumandroid/core/unlocked/PdfPageU;",
+      "method": "getPagePtr",
+      "signature": "()J",
+      "public": true,
+      "native": false,
+      "hasCode": true
+    },
+    {
+      "class": "Lio/legere/pdfiumandroid/core/unlocked/PdfTextPageU;",
+      "method": "getPagePtr",
+      "signature": "()J",
+      "public": true,
+      "native": false,
+      "hasCode": true
+    }
+  ],
+  "staticAbiPassed": true,
+  "deviceExecutionValidated": false
+}

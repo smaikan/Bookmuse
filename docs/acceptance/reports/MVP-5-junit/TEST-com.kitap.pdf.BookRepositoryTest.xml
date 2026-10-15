@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kitap.pdf.BookRepositoryTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-10-14T14:26:47.513Z" hostname="DESKTOP-U6G0PLP" time="0.986">
+  <properties/>
+  <testcase name="titleSearchIsTurkishAwareAndPercentIsLiteral" classname="com.kitap.pdf.BookRepositoryTest" time="0.289"/>
+  <testcase name="bookmarksAreScopedIdempotentAndSurviveReopen" classname="com.kitap.pdf.BookRepositoryTest" time="0.077"/>
+  <testcase name="reopeningKeepsIndependentBookPositions" classname="com.kitap.pdf.BookRepositoryTest" time="0.051"/>
+  <testcase name="removalCleansOwnedCopyAndPositionButPreservesExternalOriginal" classname="com.kitap.pdf.BookRepositoryTest" time="0.104"/>
+  <testcase name="renamedTitleKeepsPositionAndOnlyReadBooksAppearInContinue" classname="com.kitap.pdf.BookRepositoryTest" time="0.065"/>
+  <testcase name="libraryModeAndThumbnailLruMetadataPersistIndependently" classname="com.kitap.pdf.BookRepositoryTest" time="0.048"/>
+  <testcase name="relinkKeepsBookIdentityAndPositionAndInvalidPageCannotOverwriteIt" classname="com.kitap.pdf.BookRepositoryTest" time="0.044"/>
+  <testcase name="startupRecoversInterruptedImportsWithoutDeletingReadyBooks" classname="com.kitap.pdf.BookRepositoryTest" time="0.058"/>
+  <testcase name="versionOneMigrationKeepsTheOldPositionAndAddsDurablePreferences" classname="com.kitap.pdf.BookRepositoryTest" time="0.124"/>
+  <testcase name="duplicateUriCannotLeaveAPartialRow" classname="com.kitap.pdf.BookRepositoryTest" time="0.049"/>
+  <testcase name="aPositionWriteFailureRollsBackTheDocumentRowToo" classname="com.kitap.pdf.BookRepositoryTest" time="0.04"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

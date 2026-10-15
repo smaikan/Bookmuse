@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kitap.pdf.AtomicPdfCopyTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-15T04:31:01.216Z" hostname="DESKTOP-U6G0PLP" time="0.071">
+  <properties/>
+  <testcase name="emptyFileDoesNotBecomeReady" classname="com.kitap.pdf.AtomicPdfCopyTest" time="0.029"/>
+  <testcase name="cancellationMidStreamCleansUpAndPreventsCommit" classname="com.kitap.pdf.AtomicPdfCopyTest" time="0.008"/>
+  <testcase name="anExistingTargetCannotBeOverwrittenOrRemovedOnFailure" classname="com.kitap.pdf.AtomicPdfCopyTest" time="0.017"/>
+  <testcase name="providerFailureLeavesNeitherFinalNorTemporaryFile" classname="com.kitap.pdf.AtomicPdfCopyTest" time="0.005"/>
+  <testcase name="streamIsHashedAndPromotedWithoutTemporaryFile" classname="com.kitap.pdf.AtomicPdfCopyTest" time="0.008"/>
+  <testcase name="successfulCommitCannotBeReportedAsCancelled" classname="com.kitap.pdf.AtomicPdfCopyTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

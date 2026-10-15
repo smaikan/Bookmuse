@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kitap.pdf.BookRepositoryTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-10-15T04:31:09.380Z" hostname="DESKTOP-U6G0PLP" time="1.575">
+  <properties/>
+  <testcase name="titleSearchIsTurkishAwareAndPercentIsLiteral" classname="com.kitap.pdf.BookRepositoryTest" time="0.105"/>
+  <testcase name="favoriteFilterCombinesSearchAndOrderAndSurvivesReopen" classname="com.kitap.pdf.BookRepositoryTest" time="0.117"/>
+  <testcase name="bookmarksAreScopedIdempotentAndSurviveReopen" classname="com.kitap.pdf.BookRepositoryTest" time="0.142"/>
+  <testcase name="reopeningKeepsIndependentBookPositions" classname="com.kitap.pdf.BookRepositoryTest" time="0.074"/>
+  <testcase name="sharedReaderDefaultsIgnoreHistoricBookCropAndNormalizeGeometry" classname="com.kitap.pdf.BookRepositoryTest" time="0.059"/>
+  <testcase name="removalCleansOwnedCopyAndPositionButPreservesExternalOriginal" classname="com.kitap.pdf.BookRepositoryTest" time="0.275"/>
+  <testcase name="renamedTitleKeepsPositionAndOnlyReadBooksAppearInContinue" classname="com.kitap.pdf.BookRepositoryTest" time="0.071"/>
+  <testcase name="libraryModeAndThumbnailLruMetadataPersistIndependently" classname="com.kitap.pdf.BookRepositoryTest" time="0.089"/>
+  <testcase name="relinkKeepsBookIdentityAndPositionAndInvalidPageCannotOverwriteIt" classname="com.kitap.pdf.BookRepositoryTest" time="0.066"/>
+  <testcase name="startupRecoversInterruptedImportsWithoutDeletingReadyBooks" classname="com.kitap.pdf.BookRepositoryTest" time="0.078"/>
+  <testcase name="versionOneMigrationKeepsTheOldPositionAndAddsDurablePreferences" classname="com.kitap.pdf.BookRepositoryTest" time="0.123"/>
+  <testcase name="libraryPreferencesAreAtomicAndDoNotChangeReadingPosition" classname="com.kitap.pdf.BookRepositoryTest" time="0.11"/>
+  <testcase name="duplicateUriCannotLeaveAPartialRow" classname="com.kitap.pdf.BookRepositoryTest" time="0.138"/>
+  <testcase name="aPositionWriteFailureRollsBackTheDocumentRowToo" classname="com.kitap.pdf.BookRepositoryTest" time="0.097"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

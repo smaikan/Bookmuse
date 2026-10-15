@@ -1,0 +1,11 @@
+{
+  "elfAndZip16k": true,
+  "sizeMiB": 42.32907485961914,
+  "junitTests": 78.0,
+  "milestone": "ui-simplification",
+  "signatureVerified": true,
+  "physicalDeviceValidated": false,
+  "nativeLibraries": 30,
+  "apk": "C:\\Users\\Serhat\\Desktop\\kitap\\artifacts\\ui-simplification\\kitap-uisimplification-universal.apk",
+  "sha256": "e34213877da2ab2eb0a1597db3f5b319a10b5aa191d157d190fb9fd98e6f2136"
+}

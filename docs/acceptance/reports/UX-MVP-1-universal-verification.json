@@ -1,0 +1,11 @@
+{
+  "nativeLibraries": 30,
+  "sizeMiB": 42.147640228271484,
+  "signatureVerified": true,
+  "physicalDeviceValidated": false,
+  "elfAndZip16k": true,
+  "apk": "C:\\Users\\Serhat\\Desktop\\kitap\\artifacts\\ux-mvp-1\\kitap-uxmvp1-universal.apk",
+  "sha256": "99657830347ddcb853c81982e6232119ecaf2aa8cda0cbebca34c16ecabcbed2",
+  "milestone": "ux-mvp-1",
+  "junitTests": 85.0
+}

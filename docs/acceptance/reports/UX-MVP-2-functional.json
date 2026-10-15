@@ -1,0 +1,13 @@
+{
+  "readerBoundsBefore": [
+    "[0,0][800,1200]"
+  ],
+  "readerBoundsAfter": [
+    "[0,0][800,1200]"
+  ],
+  "menuDoesNotResize": true,
+  "minimalMenu": true,
+  "tapHides": true,
+  "positionPreserved": true,
+  "globalSettingsRoundTrip": true
+}

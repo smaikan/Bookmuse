@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kitap.pdf.ByteBudgetTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-15T13:28:09.566Z" hostname="DESKTOP-U6G0PLP" time="0.001">
+  <properties/>
+  <testcase name="rejectsAllocationAboveLimitWithoutOverflow" classname="com.kitap.pdf.ByteBudgetTest" time="0.001"/>
+  <testcase name="keepsInFlightAndVisibleReservationsInsideBudget" classname="com.kitap.pdf.ByteBudgetTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+{
+  "emulator": true,
+  "oldVersionCode": 7,
+  "newVersionCode": 8,
+  "installMode": "install -r; no uninstall",
+  "databaseByteIdenticalBeforeLaunch": true,
+  "schemaVersion": 5,
+  "counts": {
+    "documents": 10,
+    "annotations": 1,
+    "annotation_ranges": 1,
+    "notes": 1,
+    "note_drafts": 1
+  },
+  "referenceHuaweiUpgradeValidated": false
+}

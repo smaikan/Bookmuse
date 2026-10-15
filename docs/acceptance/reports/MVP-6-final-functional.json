@@ -1,0 +1,25 @@
+{
+  "versionCode": 9,
+  "artifactSha256": "71b4704820c7bc7a380305c2f5296f65055bc41828c6eea2a78b29a09255920f",
+  "emulator": true,
+  "physicalHuaweiValidated": false,
+  "realUnderlinePassageNoteSaved": true,
+  "markdownCorrectMdFilename": true,
+  "markdownLocalizedLabelsAndPassageContents": true,
+  "finalSafBackupAndUnchangedReimport": true,
+  "externalSendFromFilesWhileReaderOpen": true,
+  "openedSharedBook": "DL-09",
+  "malformedSendExtraRejectedWithoutCrashOrBookChange": true,
+  "bookmarkSaved": true,
+  "zoomButtonsSmokePassed": true,
+  "settledPage2Reopened": true,
+  "counts": {
+    "documents": 10,
+    "annotations": 2,
+    "notes": 3,
+    "bookmarks": 1
+  },
+  "noKitapAndroidRuntimeFatalOrAnrInCapturedLog": true,
+  "benchmarkStatus": "INCOMPLETE",
+  "systemUiBootAnrObserved": true
+}

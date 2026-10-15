@@ -1,0 +1,11 @@
+{
+  "signatureVerified": true,
+  "apk": "C:\\Users\\Serhat\\Desktop\\kitap\\artifacts\\mvp-6\\kitap-mvp6-arm64-v8a.apk",
+  "milestone": "mvp-6",
+  "physicalDeviceValidated": false,
+  "sizeMiB": 23.035642623901367,
+  "elfAndZip16k": true,
+  "junitTests": 81.0,
+  "nativeLibraries": 15,
+  "sha256": "add7b1c26982fc14b5c6966cdfd7573b36fdb51de29d583f0880baa478709d12"
+}

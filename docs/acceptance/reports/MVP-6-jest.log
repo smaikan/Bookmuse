@@ -1,0 +1,14 @@
+
+> Kitap@0.6.2 test
+> jest --runInBand --json --outputFile=C:\Users\Serhat\Desktop\kitap\docs\acceptance\reports\MVP-6-jest.json
+
+PASS __tests__/App.test.tsx (33.983 s)
+PASS __tests__/Notes.test.tsx
+PASS __tests__/Backup.test.tsx
+
+Test Suites: 3 passed, 3 total
+Tests:       35 passed, 35 total
+Snapshots:   0 total
+Time:        38.311 s
+Ran all test suites.
+Test results written to: ..\docs\acceptance\reports\MVP-6-jest.json

@@ -1,0 +1,9 @@
+{
+  "documentationLinksValid": true,
+  "artifactHashesMatchDeliveryManifest": true,
+  "packageAndLockVersionMatch": true,
+  "privateAssetsPackaged": false,
+  "nativeFatalOrKitapTombstoneInFinalCapturedLog": false,
+  "status": "PASS",
+  "scope": "Documentation/artifact consistency and captured short emulator log; not Huawei performance acceptance"
+}

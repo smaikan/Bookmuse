@@ -1,0 +1,87 @@
+{
+  "kind": "Android emulator release functional test",
+  "emulator": true,
+  "referenceHuaweiValidated": false,
+  "documents": [
+    {
+      "id": "DL-01",
+      "sha256": "45aa7be7d25323b1df211f134910597a7693a0d0e8bb271bc64b2587fc0a2440",
+      "pages": 1,
+      "imported": true,
+      "readerReady": true,
+      "nativeSurface": true
+    },
+    {
+      "id": "DL-02",
+      "sha256": "e433b9a2cf9ab3496a7d62d4db1a6c79a4e54fe914cb750ab4295eb991f69f77",
+      "pages": 1,
+      "imported": true,
+      "readerReady": true,
+      "nativeSurface": true
+    },
+    {
+      "id": "DL-03",
+      "sha256": "6ab847b2161dfb39cc284a498e280a4a6ad71f7d380cb83069d8da0777ac9241",
+      "pages": 1,
+      "imported": true,
+      "readerReady": true,
+      "nativeSurface": true
+    },
+    {
+      "id": "DL-04",
+      "sha256": "70c5560d4a3bac78b3604f7f185c3cde9ae3242a7b0f08acd1d6e88f4ae86486",
+      "pages": 1,
+      "imported": true,
+      "readerReady": true,
+      "nativeSurface": true
+    },
+    {
+      "id": "DL-05",
+      "sha256": "f92b2f674e66cf937083171339868fb78c7b207a9eb98d4561b2fb8b0c6c2e06",
+      "pages": 1,
+      "imported": true,
+      "readerReady": true,
+      "nativeSurface": true
+    },
+    {
+      "id": "DL-06",
+      "sha256": "77f05016c1893e2590c8624aa2be95662733abf897d7d2b564aba13dcb0b6d90",
+      "pages": 1,
+      "imported": true,
+      "readerReady": true,
+      "nativeSurface": true
+    },
+    {
+      "id": "DL-07",
+      "sha256": "fad8a5ff74c4c719b312710b55e2155a1f85b70d936453c3b43a538bfb437115",
+      "pages": 2,
+      "imported": true,
+      "readerReady": true,
+      "nativeSurface": true
+    },
+    {
+      "id": "DL-08",
+      "sha256": "03220d2fddc60163b742336e87a08b2c57d40d2fda895fcc922b0aeae72ab9de",
+      "pages": 1,
+      "imported": true,
+      "readerReady": true,
+      "nativeSurface": true
+    },
+    {
+      "id": "DL-09",
+      "sha256": "0c42279f42cef6a8a850049c1a3ef7b123a24619126fe2196e6a427927e6f83a",
+      "pages": 2,
+      "imported": true,
+      "readerReady": true,
+      "nativeSurface": true
+    },
+    {
+      "id": "DL-10",
+      "sha256": "6543af3c271cb48cc136be4263a25b0aabab378ed520b9ad908e51244662590e",
+      "pages": 1,
+      "imported": true,
+      "readerReady": true,
+      "nativeSurface": true
+    }
+  ]
+}

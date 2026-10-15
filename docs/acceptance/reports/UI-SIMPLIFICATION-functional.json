@@ -1,0 +1,110 @@
+{
+  "scope": "Release Android36 x86_64 emulator; not Huawei acceptance",
+  "physicalDeviceValidated": false,
+  "upgrade": {
+    "from": "0.8.0/code15",
+    "to": "0.8.1/code16",
+    "schema": 7,
+    "allRowsIdentical": [
+      "documents",
+      "reading_positions",
+      "annotations",
+      "annotation_ranges",
+      "notes",
+      "note_drafts",
+      "bookmarks",
+      "app_preferences",
+      "book_preferences"
+    ],
+    "counts": {
+      "documents": 15,
+      "reading_positions": 15,
+      "annotations": 7,
+      "annotation_ranges": 7,
+      "notes": 6,
+      "note_drafts": 0,
+      "bookmarks": 1,
+      "app_preferences": 3,
+      "book_preferences": 0
+    }
+  },
+  "library": {
+    "menuActions": [
+      "Notlar",
+      "Alt\u0131 \u00e7izilenler",
+      "Favoriden \u00e7\u0131kar",
+      "Ad\u0131 d\u00fczenle",
+      "Kald\u0131r"
+    ],
+    "notesAndHighlightsReachable": true,
+    "favoriteToggleAndRestore": true,
+    "renamePrefilledAndStableIdPage": true
+  },
+  "settings": {
+    "directSingleScreen": true,
+    "removedCategoriesAbsent": true,
+    "themeBackgrounds": {
+      "Orijinal": "#F5F3ED",
+      "Sepya": "#F5F3ED",
+      "Gece": "#F5F3ED",
+      "\u00d6zel": "#F5F3ED"
+    },
+    "savedNightPersistsWithoutDarkSettings": true,
+    "nightAppliedToTwoBooks": true
+  },
+  "overview": {
+    "helperControlsAbsent": true,
+    "threeColumns": true,
+    "closingPreservesPosition": true,
+    "numberJumpAndBookmarkToggle": true,
+    "reopenRestoredPage": true
+  },
+  "customDarkSettings": {
+    "settingsBackground": "#F5F3ED",
+    "screenshot": "private/ui-settings-custom-black-confirmed.png",
+    "cancelPreservesSavedTheme": true,
+    "enteredPaperColorVisuallyVerified": "#000000"
+  },
+  "removal": {
+    "syntheticFixtureOnly": true,
+    "cancelPreservesBook": true,
+    "confirmRemovesChosenBook": true,
+    "externalOriginalRemains": true,
+    "existingDataCountsUnchanged": true
+  },
+  "responsive": [
+    {
+      "width": 360,
+      "height": 800,
+      "fontScale": 1,
+      "menuLastActionReachable": true,
+      "directLightSettingsReachable": true
+    },
+    {
+      "width": 800,
+      "height": 360,
+      "fontScale": 2,
+      "menuLastActionReachable": true,
+      "directLightSettingsReachable": true
+    }
+  ],
+  "finalAudit": {
+    "originalRowsAndPageIndicesPreserved": true,
+    "pdfCopiesFingerprintVerified": 15,
+    "dbIntegrityAndForeignKeys": true,
+    "installedApkMatchesArtifact": "e34213877da2ab2eb0a1597db3f5b319a10b5aa191d157d190fb9fd98e6f2136",
+    "appCrashInAvailableBuffer": false,
+    "osStartupSystemUiDialogExcluded": true
+  },
+  "finalArtifact": {
+    "version": "0.8.1",
+    "versionCode": 16,
+    "sha256": "e34213877da2ab2eb0a1597db3f5b319a10b5aa191d157d190fb9fd98e6f2136",
+    "sizeMiB": 42.32907485961914,
+    "abis": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  },
+  "status": "SOURCE_BUILD_AND_REPORTED_EMULATOR_CHECKS_PASSED"
+}

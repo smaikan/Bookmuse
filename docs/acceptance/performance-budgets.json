@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "status": "initial_targets_not_measured",
+  "reference_device": {
+    "manufacturer": "Huawei",
+    "ram_mib": 2048,
+    "ram_tolerance_mib": 256,
+    "refresh_hz": 60,
+    "physical_required": true,
+    "release_required": true
+  },
+  "metrics": {
+    "cold_library_ms": {"unit": "ms", "aggregation": "p95", "max": 2500, "min_samples": 20},
+    "warm_resume_ms": {"unit": "ms", "aggregation": "p95", "max": 1000, "min_samples": 20},
+    "first_readable_page_ms": {"unit": "ms", "aggregation": "p95", "max": 2000, "min_samples": 20},
+    "touch_feedback_ms": {"unit": "ms", "aggregation": "p95", "max": 100, "min_samples": 20},
+    "page_panel_ms": {"unit": "ms", "aggregation": "p95", "max": 250, "min_samples": 20},
+    "prepared_selection_ms": {"unit": "ms", "aggregation": "p95", "max": 100, "min_samples": 20},
+    "annotation_commit_ms": {"unit": "ms", "aggregation": "p95", "max": 300, "min_samples": 20},
+    "delayed_frames_percent": {"unit": "percent", "aggregation": "max", "max": 5, "exclusive": true, "min_samples": 1},
+    "frozen_frames": {"unit": "count", "aggregation": "max", "max": 0, "min_samples": 1},
+    "reading_pss_mib": {"unit": "MiB", "aggregation": "max", "max": 160, "min_samples": 1},
+    "peak_pss_mib": {"unit": "MiB", "aggregation": "max", "max": 220, "min_samples": 1},
+    "quiescent_pss_growth_percent": {"unit": "percent", "aggregation": "max", "max": 10, "min_samples": 1},
+    "bitmap_cache_mib": {"unit": "MiB", "aggregation": "max", "max": 24, "min_samples": 1},
+    "derived_text_cache_mib": {"unit": "MiB", "aggregation": "max", "max": 4, "min_samples": 1},
+    "device_apk_mib": {"unit": "MiB", "aggregation": "max", "max": 30, "min_samples": 1},
+    "crashes": {"unit": "count", "aggregation": "max", "max": 0, "min_samples": 1},
+    "anrs": {"unit": "count", "aggregation": "max", "max": 0, "min_samples": 1},
+    "ooms": {"unit": "count", "aggregation": "max", "max": 0, "min_samples": 1}
+  },
+  "optional_metrics": {
+    "universal_apk_mib": {"unit": "MiB", "aggregation": "max", "max": 50, "min_samples": 1}
+  }
+}

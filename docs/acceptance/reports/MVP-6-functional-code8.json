@@ -1,0 +1,20 @@
+{
+  "emulator": true,
+  "testedArtifactVersionCode": 8,
+  "testedArtifactSha256": "88181396211a7e13ad74702b4381a792afaf76dd0cc7e34e30d0fc6b5a5500f7",
+  "physicalHuaweiValidated": false,
+  "realTextSelectionAndUnderline": true,
+  "postUpgradeDraftRecoveredAndFinalSaved": true,
+  "safBackupCreated": true,
+  "backupValidated": true,
+  "repeatImportNoDuplicates": true,
+  "synthetic1000NotesRestoredAndPaged": true,
+  "keepLocalConflictPreserved1000Notes": true,
+  "explicitBackupConflictRestoredOriginalNotes": true,
+  "txtAndMarkdownContentsMatchQuotesNotesPages": true,
+  "markdownFilename": "md.txt; fixed MIME pending final retest",
+  "missingPdfQuotesNotesAccessible": true,
+  "sameFingerprintRelinkPassed": true,
+  "cacheCleanupPassed": true,
+  "timingBenchmarksCollected": false
+}

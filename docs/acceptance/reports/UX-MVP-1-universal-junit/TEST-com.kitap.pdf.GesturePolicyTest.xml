@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kitap.pdf.GesturePolicyTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-15T01:18:26.536Z" hostname="DESKTOP-U6G0PLP" time="0.002">
+  <properties/>
+  <testcase name="bothOuterEdgesAndSystemBarsAreProtected" classname="com.kitap.pdf.GesturePolicyTest" time="0.0"/>
+  <testcase name="smallAndDiagonalDragsCannotTurnPages" classname="com.kitap.pdf.GesturePolicyTest" time="0.0"/>
+  <testcase name="committedDragAndFlingHaveCorrectDirection" classname="com.kitap.pdf.GesturePolicyTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

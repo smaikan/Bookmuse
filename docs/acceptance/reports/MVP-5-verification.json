@@ -1,0 +1,11 @@
+{
+  "sizeMiB": 23.002710342407227,
+  "sha256": "f66f9a08ca1e40d79f2967df98bcf568949e2b0fdcb5572459a18c853f5b1201",
+  "apk": "C:\\Users\\Serhat\\Desktop\\kitap\\artifacts\\mvp-5\\kitap-mvp5-arm64-v8a.apk",
+  "milestone": "mvp-5",
+  "junitTests": 67.0,
+  "physicalDeviceValidated": false,
+  "elfAndZip16k": true,
+  "signatureVerified": true,
+  "nativeLibraries": 15
+}

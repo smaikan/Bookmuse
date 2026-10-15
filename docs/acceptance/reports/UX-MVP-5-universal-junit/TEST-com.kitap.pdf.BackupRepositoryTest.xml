@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kitap.pdf.BackupRepositoryTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-10-15T05:00:38.353Z" hostname="DESKTOP-U6G0PLP" time="4.922">
+  <properties/>
+  <testcase name="sameBackupTwiceDoesNotDuplicateAndEditorOpeningDoesNotCauseConflict" classname="com.kitap.pdf.BackupRepositoryTest" time="0.251"/>
+  <testcase name="summaryKeepsQuotesFinalNotesDraftsAndPhysicalPagesReadableAndEscapesMarkdown" classname="com.kitap.pdf.BackupRepositoryTest" time="0.062"/>
+  <testcase name="truncatedWrongVersionUnknownPathsAndWrongScalarTypesNeverMutateMainDatabase" classname="com.kitap.pdf.BackupRepositoryTest" time="0.188"/>
+  <testcase name="v2FavoritesAndLibraryPreferencesRoundTrip" classname="com.kitap.pdf.BackupRepositoryTest" time="0.171"/>
+  <testcase name="hostileStringIsStoppedBeforeJsonReaderCanAllocateUnboundedText" classname="com.kitap.pdf.BackupRepositoryTest" time="0.152"/>
+  <testcase name="changedLibraryAfterPreviewRejectsStaleDecisionWithoutReplacingAnything" classname="com.kitap.pdf.BackupRepositoryTest" time="0.15"/>
+  <testcase name="restoreFailureRollsBackAllTablesAndKeepsLocalRecords" classname="com.kitap.pdf.BackupRepositoryTest" time="0.167"/>
+  <testcase name="legacyBackupKeepsLocalFavoriteAndNewApplicationPreferences" classname="com.kitap.pdf.BackupRepositoryTest" time="0.203"/>
+  <testcase name="malformedUtf8CannotSilentlyReplaceSavedUnicode" classname="com.kitap.pdf.BackupRepositoryTest" time="0.12"/>
+  <testcase name="invalidGeometryFingerprintAndCrossBookPassageAreRejected" classname="com.kitap.pdf.BackupRepositoryTest" time="0.123"/>
+  <testcase name="samePdfOnAnotherDeviceMapsToExistingBookInsteadOfDuplicatingIt" classname="com.kitap.pdf.BackupRepositoryTest" time="0.138"/>
+  <testcase name="groupedDeletedNotesDraftsAndUndoSurviveRoundTrip" classname="com.kitap.pdf.BackupRepositoryTest" time="0.107"/>
+  <testcase name="historicBackupNormalizesOnceAndPreservesStyleRecoveryWhenReplacing" classname="com.kitap.pdf.BackupRepositoryTest" time="0.308"/>
+  <testcase name="oldPreferencePayloadsWithoutHelperControlsRemainReadableAndDedupe" classname="com.kitap.pdf.BackupRepositoryTest" time="0.17"/>
+  <testcase name="removingCopyKeepsRecordsAndCacheMetadataCleanupDoesNotDeleteWork" classname="com.kitap.pdf.BackupRepositoryTest" time="0.052"/>
+  <testcase name="roundTripPortableWorkAndDraftNoLeases" classname="com.kitap.pdf.BackupRepositoryTest" time="0.149"/>
+  <testcase name="streamedThousandNotesAndMaximumLengthUnicodeBodyRemainPagedAfterRestore" classname="com.kitap.pdf.BackupRepositoryTest" time="2.223"/>
+  <testcase name="wholeBookConflictRequiresExplicitPolicyAndPreservesOriginalLocalFileIdentity" classname="com.kitap.pdf.BackupRepositoryTest" time="0.171"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

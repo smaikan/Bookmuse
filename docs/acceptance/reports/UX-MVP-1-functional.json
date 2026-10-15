@@ -1,0 +1,25 @@
+{
+  "before": {
+    "documents": 10,
+    "annotations": 2,
+    "notes": 3,
+    "note_drafts": 0,
+    "bookmarks": 1
+  },
+  "sideBySide": true,
+  "coverScroll": true,
+  "threeActions": true,
+  "favoriteFilter": true,
+  "favoritePersists": true,
+  "cardPage45": true,
+  "resume45": true,
+  "after": {
+    "documents": 11,
+    "annotations": 2,
+    "notes": 3,
+    "note_drafts": 0,
+    "bookmarks": 1
+  },
+  "preservedRecords": true,
+  "scope": "Release emulator functional checks; not physical Huawei performance"
+}

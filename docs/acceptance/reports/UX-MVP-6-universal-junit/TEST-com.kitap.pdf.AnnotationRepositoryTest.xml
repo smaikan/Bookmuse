@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kitap.pdf.AnnotationRepositoryTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-10-15T05:34:49.690Z" hostname="DESKTOP-U6G0PLP" time="31.465">
+  <properties/>
+  <testcase name="historicVersionThreeMigrationKeepsPositionSettingsBookmarksAndMode" classname="com.kitap.pdf.AnnotationRepositoryTest" time="8.618"/>
+  <testcase name="failedRangeWriteRollsBackBothTablesAndRetrySucceeds" classname="com.kitap.pdf.AnnotationRepositoryTest" time="0.13"/>
+  <testcase name="failedYellowMigrationRollsBackHistoryAndVersionWithoutReset" classname="com.kitap.pdf.AnnotationRepositoryTest" time="0.109"/>
+  <testcase name="textStylesNormalizeBeforeIdempotentComparisonWhileRegionsKeepTheirStyle" classname="com.kitap.pdf.AnnotationRepositoryTest" time="0.097"/>
+  <testcase name="brokenMigrationDoesNotResetOrAdvanceHistoricDatabase" classname="com.kitap.pdf.AnnotationRepositoryTest" time="0.108"/>
+  <testcase name="cardsOnlyReturnPreviewAndDetailKeepsWholeQuoteWithoutPdfFile" classname="com.kitap.pdf.AnnotationRepositoryTest" time="0.075"/>
+  <testcase name="manualRegionsCannotMasqueradeAsText" classname="com.kitap.pdf.AnnotationRepositoryTest" time="0.069"/>
+  <testcase name="historicSixMigrationPreservesGeometryNotesAndRecoveryAndIsIdempotent" classname="com.kitap.pdf.AnnotationRepositoryTest" time="0.091"/>
+  <testcase name="thousandMarksStayPaginatedAndFiltersAreLiteralTurkishAndBookScoped" classname="com.kitap.pdf.AnnotationRepositoryTest" time="15.014"/>
+  <testcase name="wrongFingerprintPageOrMalformedGeometryCannotWrite" classname="com.kitap.pdf.AnnotationRepositoryTest" time="2.88"/>
+  <testcase name="idempotentQuoteAndQuadsSurviveReopen" classname="com.kitap.pdf.AnnotationRepositoryTest" time="0.074"/>
+  <testcase name="editDeleteUndoUsesRevisionsAndKeepsRanges" classname="com.kitap.pdf.AnnotationRepositoryTest" time="0.069"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

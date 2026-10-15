@@ -1,0 +1,11 @@
+{
+  "emulator": true,
+  "versionCode": 8,
+  "externalViewFromFilesWhileReaderOpen": true,
+  "oldBook": "DL-10",
+  "openedBook": "DL-07",
+  "exactReaderCounter": "1 / 2",
+  "physicalHuaweiValidated": false,
+  "documentCountAfterView": 10,
+  "duplicateCreated": false
+}

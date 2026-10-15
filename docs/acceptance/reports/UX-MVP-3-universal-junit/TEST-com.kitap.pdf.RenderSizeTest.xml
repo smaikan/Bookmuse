@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kitap.pdf.RenderSizeTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-15T04:31:13.979Z" hostname="DESKTOP-U6G0PLP" time="0.01">
+  <properties/>
+  <testcase name="fitsLandscapeAndSmallViewports" classname="com.kitap.pdf.RenderSizeTest" time="0.007"/>
+  <testcase name="rejectsUnmeasuredViewport" classname="com.kitap.pdf.RenderSizeTest" time="0.002"/>
+  <testcase name="hugeTabletOutputIsCappedWithoutLosingAspectRatio" classname="com.kitap.pdf.RenderSizeTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

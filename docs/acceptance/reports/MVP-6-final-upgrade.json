@@ -1,0 +1,17 @@
+{
+  "emulator": true,
+  "oldVersionCode": 8,
+  "newVersionCode": 9,
+  "installMode": "install -r; no uninstall",
+  "databaseByteIdenticalBeforeLaunch": true,
+  "counts": {
+    "documents": 10,
+    "annotations": 2,
+    "annotation_ranges": 2,
+    "notes": 2,
+    "note_drafts": 0
+  },
+  "physicalHuaweiValidated": false,
+  "artifactSha256": "71b4704820c7bc7a380305c2f5296f65055bc41828c6eea2a78b29a09255920f",
+  "runtimePageSizeBytes": 4096
+}

@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-14",
+  "command": "npm audit --omit=dev --json",
+  "counts": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 20,
+    "critical": 0,
+    "total": 20
+  },
+  "rootAdvisory": {
+    "source": 1240992,
+    "name": "braces",
+    "dependency": "braces",
+    "title": "braces vulnerable to stack-exhaustion denial of service through deeply nested patterns",
+    "url": "https://github.com/advisories/GHSA-vfj7-8cjw-p6xm",
+    "severity": "high",
+    "cwe": [
+      "CWE-674"
+    ],
+    "cvss": {
+      "score": 7.5,
+      "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    },
+    "range": "<=3.0.3"
+  },
+  "apkRuntimeValidated": false
+}

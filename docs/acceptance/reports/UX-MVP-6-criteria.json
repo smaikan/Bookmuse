@@ -1,0 +1,256 @@
+{
+  "scope": "Evidence map; not blanket acceptance. Full criterion wording is in UX plan.",
+  "physicalDeviceValidated": false,
+  "criteria": [
+    {
+      "id": "U1-01",
+      "expected": "Telefon/tablet ve dikey/yatay pencerelerde 320–599/600–839/840–1199/1200+ dp için 2/3/4/5 sütun; çok dar pencerede tek sütun.",
+      "evidenceAndLimits": "Emülatör360/600/900/1280 dp:2/3/4/5 sütun; gerçek split-window matrisi açık."
+    },
+    {
+      "id": "U1-02",
+      "expected": "Uzun başlık, eksik kapak ve son satır kitapları düzeni bozmaz; son tek kart satıra yayılmaz.",
+      "evidenceAndLimits": "Uzun başlık ve son satır görsel kontrolü; eksik kapak placeholder yolu host/RN kapsamı."
+    },
+    {
+      "id": "U1-03",
+      "expected": "Kart üzerinden başlayan dikey hareket bütün kitaplığı kaydırır.",
+      "evidenceAndLimits": "UX1 karttan başlayan gerçek kaydırma; final tek FlatList korunur."
+    },
+    {
+      "id": "U1-04",
+      "expected": "⋮ yalnız Notlar / Altı çizilenler / Favoriye ekle–çıkar içerir; dışarı dokunma ve geri kapatır, kitabı açmaz.",
+      "evidenceAndLimits": "UX1 üç işlem/aç-kapat; final RN menü testi. Fiziksel TalkBack ayrı."
+    },
+    {
+      "id": "U1-05",
+      "expected": "Favori yeniden açılışta korunur; başarısız DB işlemi yanlış durum göstermez.",
+      "evidenceAndLimits": "UX1 yeniden başlatmada favori; native transaction/hata ve sorgu testleri."
+    },
+    {
+      "id": "U1-06",
+      "expected": "Arama, favori filtresi ve sıralama birlikte doğru sonuç verir; tercihler saklanır.",
+      "evidenceAndLimits": "Native birleşik query ve RN arama/filtre/sıralama testleri."
+    },
+    {
+      "id": "U1-07",
+      "expected": "Sayfa 45'te normal kapat → kart `(45/80)` → yeniden açılış 45 olur.",
+      "evidenceAndLimits": "Gerçek80 sayfalı PDF45→kapat→kart→45; final basic akışı."
+    },
+    {
+      "id": "U1-08",
+      "expected": "İptal edilen geçiş ve genel görünümde gezinme okuma konumunu değiştirmez.",
+      "evidenceAndLimits": "Final1000 sayfalı overview scroll/close500; gesture cancel host ve emülatör kanıtı."
+    },
+    {
+      "id": "U1-09",
+      "expected": "Kitap kaldırma dış orijinale dokunmaz; not ve işaret işlemleri erişilebilir kalır.",
+      "evidenceAndLimits": "Host silme/relink/backup regresyonu; eski kullanıcı kayıtları güncellemede korunur."
+    },
+    {
+      "id": "U2-01",
+      "expected": "Kitap ilk açılışta başlık, sayaç, tutamaç ve alt gezinme olmadan tam ekran görünür.",
+      "evidenceAndLimits": "Final reader screenshot: başlık/tutamaç/sayaç/alt sekme yok."
+    },
+    {
+      "id": "U2-02",
+      "expected": "Normal ölçekte dört sayfa kenarı görünür; içerik kırpılmaz/esnetilmez.",
+      "evidenceAndLimits": "Host viewport dönüşümleri ve final farklı oranlı3 sayfa; ağır corpus açık."
+    },
+    {
+      "id": "U2-03",
+      "expected": "Farklı oranlı sayfalardaki boşluk yalnız etkin arka planla dolar; başka sayfa/içerik görünmez.",
+      "evidenceAndLimits": "Final tam sayfa screenshot ve native paper rengi; tema matrisi fiziksel açık."
+    },
+    {
+      "id": "U2-04",
+      "expected": "Dokunma katmanı PDF'nin ölçüsünü, ölçeğini ve konumunu değiştirmez.",
+      "evidenceAndLimits": "Final1200×800 screenshot üst%80 PDF pikselleri overlay öncesi/sonrası aynı."
+    },
+    {
+      "id": "U2-05",
+      "expected": "Menüde tema, zoom, Notlar listesi veya Altı çizilenler listesi yoktur.",
+      "evidenceAndLimits": "Final gerçek overlay yalnız izinli işlemler; RN testi."
+    },
+    {
+      "id": "U2-06",
+      "expected": "Ana Ayarlar'dan yapılan ortak değişiklik farklı kitaplarda uygulanır; fiziksel sayfa korunur.",
+      "evidenceAndLimits": "Ortak ayar native/RN testleri ve UX2 Gece ayarının sonraki kitaplarda kullanılması."
+    },
+    {
+      "id": "U2-07",
+      "expected": "Gizli kontroller dokunma/TalkBack odağı almaz; görünür kontroller sistem alanlarına taşmaz.",
+      "evidenceAndLimits": "Native/RN focus ve görünürlük; gerçek TalkBack/insets matrisi açık."
+    },
+    {
+      "id": "U2-08",
+      "expected": "Rotation ve split-window aynı fiziksel sayfayı korur.",
+      "evidenceAndLimits": "Viewport/spread host ve pencere genişlikleri; gerçek live split-screen/rotation matrisi açık."
+    },
+    {
+      "id": "U3-01",
+      "expected": "Yeni işaret, seçim kapandıktan sonra PDF üzerinde sarı şerit olarak kalır.",
+      "evidenceAndLimits": "Final yeni sarı işaret/pasaj kaydı ve yeniden açılmış iki bandın1510 piksel kontrolü."
+    },
+    {
+      "id": "U3-02",
+      "expected": "Kitap ve uygulama kapatılıp açılınca aynı metin aynı konumda işaretlidir.",
+      "evidenceAndLimits": "Final force-stop/reopen aynı45. sayfa ve sarı işaretler; DB/not bağlantısı doğrulandı."
+    },
+    {
+      "id": "U3-03",
+      "expected": "Eski alt çizgi ve renkli metin vurguları sarıya döner; kayıt sayısı ve not bağlantısı değişmez.",
+      "evidenceAndLimits": "Migration/rollback/revision/restore host; eski not/anchor kimlikleri upgrade karşılaştırması."
+    },
+    {
+      "id": "U3-04",
+      "expected": "Çok satır/sütun, Türkçe ve döndürülmüş metinde yanlış alan boyanmaz.",
+      "evidenceAndLimits": "TextGeometry/quad host;3 farklı test sayfası açıldı; çok sütun/rotated işaret görsel matrisi açık."
+    },
+    {
+      "id": "U3-05",
+      "expected": "Zoom, pan ve yön değişimi işareti metinden ayırmaz.",
+      "evidenceAndLimits": "Ortak native transform/overlay ve swipe kanıtı; zoom/rotation tam fiziksel matrisi açık."
+    },
+    {
+      "id": "U3-06",
+      "expected": "Gece dahil bütün temalarda harfler okunur; sarı filtreyle tersine çevrilmez.",
+      "evidenceAndLimits": "Gece sarı görünümü doğrulandı; bütün temaların fiziksel okunabilirlik kontrolü açık."
+    },
+    {
+      "id": "U3-07",
+      "expected": "Silme/geri alma ve listeden işaret konumuna gitme doğru çalışır.",
+      "evidenceAndLimits": "Sil/undo/ilişkili not/jump host regresyonları; tam final fiziksel akış açık."
+    },
+    {
+      "id": "U3-08",
+      "expected": "Çift basma, kayıt hatası ve tekrar deneme mükerrer kayıt oluşturmaz.",
+      "evidenceAndLimits": "AnnotationRepository idempotent transaction, hata/retry host testleri."
+    },
+    {
+      "id": "U3-09",
+      "expected": "Metinsiz tarama gerçek kelime seçimi varmış gibi davranmaz; bölge/not alternatifi verir.",
+      "evidenceAndLimits": "Final gerçek bitmap tarama: manual-region; sahte kelime seçimi yok."
+    },
+    {
+      "id": "U3-10",
+      "expected": "Sayfa, kitap ve pasaj notu ile taslak kurtarma mevcut kayıtları korur.",
+      "evidenceAndLimits": "NoteRepository host; gerçek draft force-stop/reopen/save ve eski notların korunması."
+    },
+    {
+      "id": "U4-01",
+      "expected": "Sürükleme boyunca sayfa parmağı izler; bırakmada animasyon aynı pikselden devam eder.",
+      "evidenceAndLimits": "Final saved-highlight250px parmak takibi/cancel;220ms settle sınırı host. FPS/p95 açık."
+    },
+    {
+      "id": "U4-02",
+      "expected": "Kısa/diyagonal hareket yanlış sayfaya geçmez ve konumu değiştirmez.",
+      "evidenceAndLimits": "GesturePolicy host, UX4 kısa iptal; final cancel akışı ayrı kayıtta."
+    },
+    {
+      "id": "U4-03",
+      "expected": "İlk/son sayfada döngü veya boş sayfa oluşmaz.",
+      "evidenceAndLimits": "PageIndex/Spread ilk-son sınır host; bütün fiziksel sınır hareketleri açık."
+    },
+    {
+      "id": "U4-04",
+      "expected": "Zoom'daki tek parmak pan sayfa çevirmeye dönüşmez.",
+      "evidenceAndLimits": "UX4 gerçek zoom-pan; final iki pane pinch/reset."
+    },
+    {
+      "id": "U4-05",
+      "expected": "Pointer ekleme/kaldırma görüntüyü sıçratmaz; kalan tek parmak yanlış gezinme başlatmaz.",
+      "evidenceAndLimits": "GesturePolicy/host pointer kuralları; UX4 kalan parmak testi; fiziksel varyasyonlar açık."
+    },
+    {
+      "id": "U4-06",
+      "expected": "Kayıtlı işaretler swipe sırasında kendi sayfalarıyla hareket eder.",
+      "evidenceAndLimits": "Final işaretin piksel merkezi swipe ile250px hareket etti; cancel geri döndü."
+    },
+    {
+      "id": "U4-07",
+      "expected": "İptal, rotation, background ve hızlı girişler eski görüntüyü yeni oturuma bağlamaz.",
+      "evidenceAndLimits": "Generation/cache/queue host ve force-stop; hareket ortasında rotation/background tam matrisi açık."
+    },
+    {
+      "id": "U4-08",
+      "expected": "Sağ ve sol dış sistem geri alanı korunur; iki parmak da iç alandan başlamalıdır.",
+      "evidenceAndLimits": "İki kenar inset guard uygulandı/testli; OS/predictive-back tam fiziksel matrisi açık."
+    },
+    {
+      "id": "U5-01",
+      "expected": "Zoom'u yalnız 1× düzeyine getirmek genel görünümü açmaz.",
+      "evidenceAndLimits": "Final gerçek pinch: yalnız1× dönüş açmadı. Host eşik testi."
+    },
+    {
+      "id": "U5-02",
+      "expected": "Ek %18 sıkıştırma hazırlar; eşik altı veya %10 üstüne geri açılan hareket iptal olur; bırakma commit eder.",
+      "evidenceAndLimits": "Final ek pinch üç sütunu açtı; %18/%10/cancel host. Sistem iptali fiziksel matrisi açık."
+    },
+    {
+      "id": "U5-03",
+      "expected": "Genel görünüm tam üç sütundur, fiziksel sıradadır ve mevcut sayfanın satırında açılır.",
+      "evidenceAndLimits": "Final görsel üç sütun/current row; gutter/sayfa numarası piksel kontrolü."
+    },
+    {
+      "id": "U5-04",
+      "expected": "Binlerce sayfalı kitapta tüm küçük resimler aynı anda üretilmez veya bellekte tutulmaz.",
+      "evidenceAndLimits": "Gerçek1000 sayfa: sınırlı görünür thumb talepleri, cache kaydı+12; RAM bütçesi ayrı."
+    },
+    {
+      "id": "U5-05",
+      "expected": "Genel görünümde kaydırıp geri dönmek eski sayfa, zoom ve odağı korur.",
+      "evidenceAndLimits": "Final1000 sayfa scroll/close500; zoom/odak komutu göndermeme RN testi."
+    },
+    {
+      "id": "U5-06",
+      "expected": "Seçilen hedef gerçekten gösterilince sayaç ve SQLite konumu güncellenir.",
+      "evidenceAndLimits": "Native presentation→DB bariyeri ve gerçek numarayla jump/reopen."
+    },
+    {
+      "id": "U5-07",
+      "expected": "Küçük resim hazır değilken fiziksel sayfa numarasıyla seçim yapılabilir.",
+      "evidenceAndLimits": "RN placeholder tıklama ve kapanış sonrası seçim testi; numarayla gerçek gitme."
+    },
+    {
+      "id": "U5-08",
+      "expected": "Sayfalar simgesi, TalkBack ve geri aynı görünüm/sonuca ulaşır.",
+      "evidenceAndLimits": "Gerçek Sayfalar simgesi/geri ve erişilebilir düğmeler; TalkBack servisi testi açık."
+    },
+    {
+      "id": "U6-01",
+      "expected": "Açık veri kaybı, yanlış sayfadan devam veya işaret konumu hatası kalmaz.",
+      "evidenceAndLimits": "Belirtilen corpus/kayıt kapsamı; bütün PDF çeşitlerinde veri/konum garantisi verilmez."
+    },
+    {
+      "id": "U6-02",
+      "expected": "Önceki imzalı sürüm üzerine kaldırmadan güncelleme kitap/not/taslakları korur.",
+      "evidenceAndLimits": "Aynı imzayla emulator install-r9→10→11→12→13→14→15; fiziksel upgrade açık."
+    },
+    {
+      "id": "U6-03",
+      "expected": "v1/v2 yedek tekrarları mükerrer oluşturmaz; sarı dönüşüm tutarlıdır.",
+      "evidenceAndLimits": "Host v1/v2 normalize/dedupe/restore; final v2 iki çatışma seçeneği ve sabit kayıt sayıları."
+    },
+    {
+      "id": "U6-04",
+      "expected": "Belirtilen test oturumunda uygulamaya ait OOM, ANR ve crash olmaz.",
+      "evidenceAndLimits": "Final boot crash/events tamponunda uygulama crash/ANR yok; OOM/uzun fiziksel oturum kabulü açık."
+    },
+    {
+      "id": "U6-05",
+      "expected": "Her hareketin erişilebilir alternatifi vardır; gizli kontroller odak almaz.",
+      "evidenceAndLimits": "%200 font ve a11y tree/düğmeler; gerçek TalkBack ve tüm reduced-motion matrisi açık."
+    },
+    {
+      "id": "U6-06",
+      "expected": "Final imzalı release Metro kapalıyken açılır ve çalışır.",
+      "evidenceAndLimits": "İmzalı bundled release, testlerde Metro kapalı; INTERNET izni yok."
+    },
+    {
+      "id": "U6-07",
+      "expected": "Ölçülmeyen fiziksel cihaz/performance kriteri geçmiş gösterilmez.",
+      "evidenceAndLimits": "Huawei/2 GB/performance kabulü açık tutuldu; canonical sonuç INCOMPLETE."
+    }
+  ]
+}

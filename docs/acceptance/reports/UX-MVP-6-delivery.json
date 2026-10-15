@@ -1,0 +1,34 @@
+{
+  "version": "0.8.0",
+  "versionCode": 15,
+  "packageId": "com.kitap",
+  "schemaVersion": 7,
+  "backupVersion": 2,
+  "backupV1Readable": true,
+  "signingCertificateSha256": "1a1f883707fe5009a8c25582a2ca0fa9ee55c844d802936f4b311a8a2502dc5c",
+  "artifacts": [
+    {
+      "file": "artifacts/ux-mvp-6/kitap-uxmvp6-arm64-v8a.apk",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "bytes": 24190022,
+      "sizeMiB": 23.06940269470215,
+      "sha256": "4f7efdb977306ddf849a9cfe306f86bac115e609dc82fd085380315f3dec0db5"
+    },
+    {
+      "file": "artifacts/ux-mvp-6/kitap-uxmvp6-universal.apk",
+      "abis": [
+        "arm64-v8a",
+        "x86_64"
+      ],
+      "bytes": 44258396,
+      "sizeMiB": 42.20809555053711,
+      "sha256": "13337ff2a725a079379bfa9174e111ac74abde1cb47eab4c83a5f551c1f7160f"
+    }
+  ],
+  "nativeHostTestsPassed": 95,
+  "jestTestsPassed": 31,
+  "physicalDeviceValidated": false,
+  "performanceAcceptance": "INCOMPLETE"
+}

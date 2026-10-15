@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kitap.pdf.TextGeometryTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-15T13:28:12.763Z" hostname="DESKTOP-U6G0PLP" time="0.004">
+  <properties/>
+  <testcase name="unknownUnicodeCannotBeSilentlyDroppedFromAQuote" classname="com.kitap.pdf.TextGeometryTest" time="0.002"/>
+  <testcase name="displayYInversionKeepsMergedBaselineOnTheCorrectSide" classname="com.kitap.pdf.TextGeometryTest" time="0.0"/>
+  <testcase name="invalidGeometryIsRejectedBeforeItCanBeSavedAsGoodText" classname="com.kitap.pdf.TextGeometryTest" time="0.0"/>
+  <testcase name="turkishCombiningAndSupplementaryUnicodeKeepPdfIndices" classname="com.kitap.pdf.TextGeometryTest" time="0.0"/>
+  <testcase name="columnsAndDifferentBaselinesCannotBecomeOneRectangle" classname="com.kitap.pdf.TextGeometryTest" time="0.001"/>
+  <testcase name="explicitNewlinesSplitGeometryEvenIfThePdfBoxesShareARow" classname="com.kitap.pdf.TextGeometryTest" time="0.0"/>
+  <testcase name="retainedMetadataCannotReleaseItsBudgetWhileWorkerUsesIt" classname="com.kitap.pdf.TextGeometryTest" time="0.0"/>
+  <testcase name="hitTestUsesNormalizedQuadAndDoesNotPickRemoteText" classname="com.kitap.pdf.TextGeometryTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

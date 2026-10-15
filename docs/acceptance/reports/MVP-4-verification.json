@@ -1,0 +1,11 @@
+{
+  "apk": "C:\\Users\\Serhat\\Desktop\\kitap\\artifacts\\mvp-4\\kitap-mvp4-arm64-v8a.apk",
+  "sizeMiB": 22.942129135131836,
+  "physicalDeviceValidated": false,
+  "junitTests": 53.0,
+  "milestone": "mvp-4",
+  "elfAndZip16k": true,
+  "nativeLibraries": 15,
+  "signatureVerified": true,
+  "sha256": "9a2cac5c822579d8b6b35ee085b322c7d62d698f7d37847d9c006bacc222e2ec"
+}

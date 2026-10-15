@@ -1,0 +1,70 @@
+{
+  "versionCode": 9,
+  "physicalHuaweiValidated": false,
+  "all12PagesOpened": true,
+  "twoPageSwipesAndNoWrap": true,
+  "documents": [
+    {
+      "id": "DL-01",
+      "pages": 1,
+      "nativePageAndExactCounter": true,
+      "allPagesOpened": true
+    },
+    {
+      "id": "DL-02",
+      "pages": 1,
+      "nativePageAndExactCounter": true,
+      "allPagesOpened": true
+    },
+    {
+      "id": "DL-03",
+      "pages": 1,
+      "nativePageAndExactCounter": true,
+      "allPagesOpened": true
+    },
+    {
+      "id": "DL-04",
+      "pages": 1,
+      "nativePageAndExactCounter": true,
+      "allPagesOpened": true
+    },
+    {
+      "id": "DL-05",
+      "pages": 1,
+      "nativePageAndExactCounter": true,
+      "allPagesOpened": true
+    },
+    {
+      "id": "DL-06",
+      "pages": 1,
+      "nativePageAndExactCounter": true,
+      "allPagesOpened": true
+    },
+    {
+      "id": "DL-07",
+      "pages": 2,
+      "nativePageAndExactCounter": true,
+      "allPagesOpened": true
+    },
+    {
+      "id": "DL-08",
+      "pages": 1,
+      "nativePageAndExactCounter": true,
+      "allPagesOpened": true
+    },
+    {
+      "id": "DL-09",
+      "pages": 2,
+      "nativePageAndExactCounter": true,
+      "allPagesOpened": true
+    },
+    {
+      "id": "DL-10",
+      "pages": 1,
+      "nativePageAndExactCounter": true,
+      "allPagesOpened": true
+    }
+  ],
+  "testedArtifactSha256": "71b4704820c7bc7a380305c2f5296f65055bc41828c6eea2a78b29a09255920f",
+  "safImportsVerifiedInPreviousCandidate": "MVP-6-android-corpus.json"
+}

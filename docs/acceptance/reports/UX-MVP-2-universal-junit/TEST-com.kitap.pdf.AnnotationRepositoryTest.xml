@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kitap.pdf.AnnotationRepositoryTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-15T01:38:01.581Z" hostname="DESKTOP-U6G0PLP" time="37.071">
+  <properties/>
+  <testcase name="historicVersionThreeMigrationKeepsPositionSettingsBookmarksAndMode" classname="com.kitap.pdf.AnnotationRepositoryTest" time="28.773"/>
+  <testcase name="failedRangeWriteRollsBackBothTablesAndRetrySucceeds" classname="com.kitap.pdf.AnnotationRepositoryTest" time="0.117"/>
+  <testcase name="brokenMigrationDoesNotResetOrAdvanceHistoricDatabase" classname="com.kitap.pdf.AnnotationRepositoryTest" time="0.118"/>
+  <testcase name="cardsOnlyReturnPreviewAndDetailKeepsWholeQuoteWithoutPdfFile" classname="com.kitap.pdf.AnnotationRepositoryTest" time="2.983"/>
+  <testcase name="manualRegionsCannotMasqueradeAsText" classname="com.kitap.pdf.AnnotationRepositoryTest" time="0.081"/>
+  <testcase name="thousandMarksStayPaginatedAndFiltersAreLiteralTurkishAndBookScoped" classname="com.kitap.pdf.AnnotationRepositoryTest" time="2.293"/>
+  <testcase name="wrongFingerprintPageOrMalformedGeometryCannotWrite" classname="com.kitap.pdf.AnnotationRepositoryTest" time="0.074"/>
+  <testcase name="idempotentQuoteAndQuadsSurviveReopen" classname="com.kitap.pdf.AnnotationRepositoryTest" time="0.113"/>
+  <testcase name="editDeleteUndoUsesRevisionsAndKeepsRanges" classname="com.kitap.pdf.AnnotationRepositoryTest" time="0.067"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "status": "INCOMPLETE",
+  "evaluation_scope": "Supplied metrics only; device and evidence authenticity are not certified",
+  "context_issues": [
+    "Physical device required; emulator is insufficient",
+    "Manufacturer does not match the reference device",
+    "RAM does not match the reference device budget"
+  ],
+  "metrics": {
+    "cold_library_ms": {
+      "status": "INCOMPLETE"
+    },
+    "warm_resume_ms": {
+      "status": "INCOMPLETE"
+    },
+    "first_readable_page_ms": {
+      "status": "INCOMPLETE"
+    },
+    "touch_feedback_ms": {
+      "status": "INCOMPLETE"
+    },
+    "page_panel_ms": {
+      "status": "INCOMPLETE"
+    },
+    "prepared_selection_ms": {
+      "status": "INCOMPLETE"
+    },
+    "annotation_commit_ms": {
+      "status": "INCOMPLETE"
+    },
+    "delayed_frames_percent": {
+      "status": "INCOMPLETE"
+    },
+    "frozen_frames": {
+      "status": "INCOMPLETE"
+    },
+    "reading_pss_mib": {
+      "status": "INCOMPLETE"
+    },
+    "peak_pss_mib": {
+      "status": "INCOMPLETE"
+    },
+    "quiescent_pss_growth_percent": {
+      "status": "INCOMPLETE"
+    },
+    "bitmap_cache_mib": {
+      "status": "INCOMPLETE"
+    },
+    "derived_text_cache_mib": {
+      "status": "INCOMPLETE"
+    },
+    "device_apk_mib": {
+      "status": "PASS",
+      "unit": "MiB",
+      "n": 1,
+      "minimum_samples": 1,
+      "median": 23.06940269470215,
+      "p95": 23.06940269470215,
+      "peak": 23.06940269470215,
+      "evaluated": 23.06940269470215,
+      "limit": 30,
+      "exclusive": false
+    },
+    "crashes": {
+      "status": "INCOMPLETE"
+    },
+    "anrs": {
+      "status": "INCOMPLETE"
+    },
+    "ooms": {
+      "status": "INCOMPLETE"
+    },
+    "universal_apk_mib": {
+      "status": "PASS",
+      "unit": "MiB",
+      "n": 1,
+      "minimum_samples": 1,
+      "median": 42.20809555053711,
+      "p95": 42.20809555053711,
+      "peak": 42.20809555053711,
+      "evaluated": 42.20809555053711,
+      "limit": 50,
+      "exclusive": false
+    }
+  }
+}

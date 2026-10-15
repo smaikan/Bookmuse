@@ -1,0 +1,7 @@
+{
+  "reachingFitDoesNotOpen": true,
+  "pinchOpensThreeColumnsAtCurrentRow": true,
+  "scrollAndClosePreservesPage": true,
+  "numberJump": true,
+  "displayedPositionSaved": true
+}

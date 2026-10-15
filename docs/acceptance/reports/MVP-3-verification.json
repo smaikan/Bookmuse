@@ -1,0 +1,11 @@
+{
+  "signatureVerified": true,
+  "sha256": "f91f4a58f50c965fa397675b7b73a15622668fe1534be50edc8e6923c25f53f9",
+  "physicalDeviceValidated": false,
+  "junitTests": 36.0,
+  "milestone": "mvp-3",
+  "sizeMiB": 22.902803421020508,
+  "apk": "C:\\Users\\Serhat\\Desktop\\kitap\\artifacts\\mvp-3\\kitap-mvp3-arm64-v8a.apk",
+  "elfAndZip16k": true,
+  "nativeLibraries": 15
+}

@@ -1,0 +1,13 @@
+{
+  "manufacturer": "unknown",
+  "emulator": true,
+  "abi": "x86_64",
+  "androidVersion": "16",
+  "schemaVersion": 1,
+  "model": "Android SDK built for x86_64",
+  "capturedAt": "2026-10-14T15:46:16.0940135+00:00",
+  "status": "device_observed",
+  "applicationValidated": false,
+  "androidApi": "36",
+  "measuredRamMiB": 3920.0
+}

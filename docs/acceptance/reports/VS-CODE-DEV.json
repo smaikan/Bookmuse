@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-15",
+  "debugApplicationId": "com.kitap.dev",
+  "releaseApplicationId": "com.kitap",
+  "bothPackagesInstalled": true,
+  "debugBuildSucceeded": true,
+  "metroLoopbackPort": 8087,
+  "existingMetroProjectRootCheckPassed": true,
+  "savedTsxChangeVisibleThroughFastRefresh": true,
+  "temporaryChangeRestoredAndVisible": true,
+  "emulatorSurvivesInstallTaskExit": true,
+  "debugSafImportAndNativePdfSurfacePassed": true,
+  "testedPdf": "DL-01 / 1 page",
+  "existingReleaseArtifactHashesUnchanged": true,
+  "emulator": "kitap-functional / emulator-5580 / API36 x86_64",
+  "physicalHuaweiValidated": false,
+  "scope": "VS Code task components tested using scripts/ADB; editor keypress not automated, not a release benchmark",
+  "taskDependenciesAndReadyPatternsValidated": true,
+  "previewLeftRunning": true
+}

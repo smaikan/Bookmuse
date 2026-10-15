@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "build": {
+    "type": "release",
+    "version": "0.6.2/code9",
+    "artifact_sha256": "71b4704820c7bc7a380305c2f5296f65055bc41828c6eea2a78b29a09255920f"
+  },
+  "device": {
+    "manufacturer": "unknown",
+    "model": "Android SDK built for x86_64",
+    "android_version": "16/API36",
+    "abi": "x86_64",
+    "physical": false,
+    "ram_mib": 3920,
+    "refresh_hz": 60.000004
+  },
+  "evidence": {
+    "kind": "measured",
+    "run_id": "mvp6-artifact-sizes-only",
+    "corpus_id": "Downloads-DL01-DL10",
+    "captured_at": "2026-10-14T19:00:53.813635+00:00",
+    "artifacts": [
+      "MVP-6-verification.json",
+      "MVP-6-universal-verification.json"
+    ],
+    "limitations": "Only APK file sizes measured here; no Huawei runtime latency/FPS/PSS or stability benchmark samples."
+  },
+  "metrics": {
+    "device_apk_mib": {
+      "unit": "MiB",
+      "samples": [
+        23.035642623901367
+      ]
+    },
+    "universal_apk_mib": {
+      "unit": "MiB",
+      "samples": [
+        42.14308547973633
+      ]
+    }
+  }
+}
