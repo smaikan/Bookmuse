@@ -1,0 +1,50 @@
+# Dependencies and generated native build output
+node_modules/
+**/build/
+**/.gradle/
+**/.cxx/
+**/.kotlin/
+**/local.properties
+.toolchain/
+coverage/
+
+# Local APKs, signing material and credentials
+artifacts/
+*.apk
+*.aab
+*.apks
+*.idsig
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.key
+*.pem
+**/keystore.properties
+**/key.properties
+**/release-signing*.json
+.env
+.env.*
+!*.example
+
+# Personal books, databases, backups and profiler captures
+*.pdf
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+/backups/
+*.hprof
+*.heapsnapshot
+
+# Runtime/editor caches; curated historical acceptance logs are intentional
+**/__pycache__/
+*.py[cod]
+*.log
+!docs/acceptance/reports/*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
