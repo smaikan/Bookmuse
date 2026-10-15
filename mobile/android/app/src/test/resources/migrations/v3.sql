@@ -1,0 +1,13 @@
+CREATE TABLE documents (id TEXT PRIMARY KEY,source_uri TEXT NOT NULL UNIQUE,filename TEXT NOT NULL UNIQUE,title TEXT NOT NULL,fingerprint TEXT NOT NULL,size_bytes INTEGER NOT NULL,page_count INTEGER NOT NULL CHECK(page_count>0),created_at INTEGER NOT NULL,title_search TEXT NOT NULL DEFAULT '');
+CREATE TABLE reading_positions (document_id TEXT PRIMARY KEY REFERENCES documents(id) ON DELETE CASCADE,page_index INTEGER NOT NULL CHECK(page_index>=0),updated_at INTEGER NOT NULL,has_read INTEGER NOT NULL DEFAULT 0);
+CREATE INDEX positions_recent ON reading_positions(updated_at DESC);
+CREATE INDEX documents_title_search ON documents(title_search);
+CREATE TABLE book_preferences(document_id TEXT PRIMARY KEY REFERENCES documents(id) ON DELETE CASCADE,payload TEXT NOT NULL);
+CREATE TABLE bookmarks(document_id TEXT NOT NULL REFERENCES documents(id) ON DELETE CASCADE,page_index INTEGER NOT NULL CHECK(page_index>=0),created_at INTEGER NOT NULL,PRIMARY KEY(document_id,page_index));
+CREATE TABLE app_preferences(key TEXT PRIMARY KEY,value TEXT NOT NULL);
+CREATE TABLE thumbnail_cache(key TEXT PRIMARY KEY,bytes INTEGER NOT NULL,touched_at INTEGER NOT NULL);
+INSERT INTO documents VALUES('old-book','content://provider/old','old.pdf','Eski kitap','hash',3,500,1,'eski kitap');
+INSERT INTO reading_positions VALUES('old-book',41,2,1);
+INSERT INTO book_preferences VALUES('old-book','{"theme":3,"left":0.1,"leftHand":true,"doublePage":true}');
+INSERT INTO bookmarks VALUES('old-book',41,2);
+INSERT INTO app_preferences VALUES('libraryMode','grid');
